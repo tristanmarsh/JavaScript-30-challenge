@@ -15,6 +15,7 @@
     const animateKey = e => {
         const key = document.querySelector(`.key[data-key='${e.keyCode}']`);
         if (key) {
+            key.classList.remove('playing');
             key.classList.add('playing');
             key.addEventListener('transitionend', e => {
                 if (e.propertyName == 'transform') {
