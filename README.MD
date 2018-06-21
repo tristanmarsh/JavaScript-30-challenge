@@ -13,3 +13,7 @@ This was fun! Challenging to represent the final degrees subsisting of the compo
 ## Day 3 - CSS VARIABLES
 [CSS Variables](https://tristanmarsh.github.io/JavaScript-30-challenge/3-css-variables/)
 Continuing to learn programmatic JS controlled style, which despite IMO being more prone than css to becoming unmanageable, is undeniably handy. Fan of the `<HTMLElement>.dataset` proprty mechanism! 👏
+
+## Day 4 - Array Cardio 1
+[Array Cardio 1](https://tristanmarsh.github.io/JavaScript-30-challenge/4-array-cardio-1/)
+Fun times concreting recent attempts to take initial steps towards writing "functionally", `reduce` is still quite foregin and really seems to require the spread operator to be even remotely useful and not become as verbose as a for loop. Realised I have a lot to learn about XRH and CORS when attempting to `fetch` data from wikipedia.
