@@ -17,3 +17,7 @@ Continuing to learn programmatic JS controlled style, which despite IMO being m
 ## Day 4 - Array Cardio 1
 [Array Cardio 1](https://tristanmarsh.github.io/JavaScript-30-challenge/4-array-cardio-1/)
 Fun times concreting recent attempts to take initial steps towards writing "functionally", `reduce` is still quite foregin and really seems to require the spread operator to be even remotely useful and not become as verbose as a for loop. Realised I have a lot to learn about XRH and CORS when attempting to `fetch` data from wikipedia.
+
+## Day 5 - Flex Panel Gallery
+[Flex Panel Gallery](https://tristanmarsh.github.io/JavaScript-30-challenge/5-flex-panel-gallery/)
+This is my jam! The JS was very basic class togglers (with the newly learnt `transitionend` event). But it's high impact thanks to Flexbox, thoughtful and queued transitions, and my new favourite API...  source.unsplash.com. This isn't very useful but it's beautiful.
