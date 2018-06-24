@@ -41,10 +41,12 @@
     target.innerHTML = (matches.length > 0)
       ? matches.reduce((acc, city) => {
         const cityName = highlight(query, `${city.city}`);
+        const stateName = highlight(query, `${city.state}`);
         const cityPopulation = formatNumberSeparator(`${city.population}`);
+
         return `${acc}
           <li>
-            <span class="name">${cityName}, ${city.state}</span>
+            <span class="name">${cityName}, ${stateName}</span>
             <span class="hl"></span><span class="population">${cityPopulation}</span>
           </li>`;
       }, '')
