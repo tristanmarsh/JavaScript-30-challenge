@@ -21,3 +21,8 @@ Fun times concreting recent attempts to take initial steps towards writing "func
 ## Day 5 - Flex Panel Gallery
 [Flex Panel Gallery](https://tristanmarsh.github.io/JavaScript-30-challenge/5-flex-panel-gallery/)
 This is my jam! The JS was very basic class togglers (with the newly learnt `transitionend` event). But it's high impact thanks to Flexbox, thoughtful and queued transitions, and my new favourite API...  source.unsplash.com. This isn't very useful but it's beautiful.
+
+## Day 6 - AJAX Type Ahead
+[AJAX Type Ahead](https://tristanmarsh.github.io/JavaScript-30-challenge/6-type-ahead/)
+
+Pretty neat demo project. This answered some of my questions about the fetch API that I attempted to add to (Day 4 - Array Cardio 1)[https://tristanmarsh.github.io/JavaScript-30-challenge/4-array-cardio-1/; need to interpret the blob objects stream according to it's file type. I attempted to structure the functionality with a clearer seperation of concerns and to optimise for readability/maintenance/extensibility. I wrote functions instead of using copy pasted regex, and added localStorage caching of the cities data API.
