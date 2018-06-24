@@ -11,4 +11,4 @@
     inputs.forEach(input => input.addEventListener('change', handleChange));
     inputs.forEach(input => input.addEventListener('mousemove', handleChange));
     inputs.forEach(input => input.dispatchEvent(new Event('change')));
-}    
+}   

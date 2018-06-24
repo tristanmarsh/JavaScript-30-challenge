@@ -1,0 +1,24 @@
+{
+  "name": "javascript-30-challenge",
+  "version": "1.0.0",
+  "description": "---\r Repo for my solutions to Wes Bos' 30 Day Vanilla JS Challenge https://JavaScript30.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tristanmarsh/JavaScript-30-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tristanmarsh/JavaScript-30-challenge/issues"
+  },
+  "homepage": "https://github.com/tristanmarsh/JavaScript-30-challenge#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
