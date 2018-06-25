@@ -26,3 +26,8 @@ This is my jam! The JS was very basic class togglers (with the newly learnt `tra
 [AJAX Type Ahead](https://tristanmarsh.github.io/JavaScript-30-challenge/6-type-ahead/)
 
 Pretty neat demo project. This answered some of my questions about the fetch API that I attempted to add to (Day 4 - Array Cardio 1)[https://tristanmarsh.github.io/JavaScript-30-challenge/4-array-cardio-1/; need to interpret the blob objects stream according to it's file type. I attempted to structure the functionality with a clearer seperation of concerns and to optimise for readability/maintenance/extensibility. I wrote functions instead of using copy pasted regex, and added localStorage caching of the cities data API.
+
+## Day 7 - Array Cardio 2
+[Array Cardio 2](https://tristanmarsh.github.io/JavaScript-30-challenge/7-array-cardio-2/)
+
+Super quick demo to express helpful predicates with array methods `some`, and `every`. Also was not aware of the handy lambda based `findIndex` method.
