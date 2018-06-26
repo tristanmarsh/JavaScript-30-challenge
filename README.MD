@@ -24,15 +24,16 @@ This is my jam! The JS was very basic class togglers (with the newly learnt `tra
 
 ## Day 6 - AJAX Type Ahead
 [AJAX Type Ahead](https://tristanmarsh.github.io/JavaScript-30-challenge/6-type-ahead/)
-
 Pretty neat demo project. This answered some of my questions about the fetch API that I attempted to add to (Day 4 - Array Cardio 1)[https://tristanmarsh.github.io/JavaScript-30-challenge/4-array-cardio-1/; need to interpret the blob objects stream according to it's file type. I attempted to structure the functionality with a clearer seperation of concerns and to optimise for readability/maintenance/extensibility. I wrote functions instead of using copy pasted regex, and added localStorage caching of the cities data API.
 
 ## Day 7 - Array Cardio 2
 [Array Cardio 2](https://tristanmarsh.github.io/JavaScript-30-challenge/7-array-cardio-2/)
-
 Super quick demo to express helpful predicates with array methods `some`, and `every`. Also was not aware of the handy lambda based `findIndex` method.
 
 ## Day 8 - HTML5 Canvas
 [HTML5 Canvas](https://tristanmarsh.github.io/JavaScript-30-challenge/8-html5-canvas/)
-
 Cool demo to learn a little about the canvas object. 👨‍🎨 I can't imagine myself investing the time required to get into the docs and become proficient anytime too soon as the pragmatic applications seem limited. Would certainly learn a library if future projects required such functionality.
+
+## Day 9 - Dev Tool Domination
+[Dev Tool Domination](https://tristanmarsh.github.io/JavaScript-30-challenge/8-dev-tool-domination/)
+Learnt of the `assert`, `dir`, `dirxml`, `group`, `count`, `clear` console methods and their variations. Not likely to start using much of them anytime too soon as I'm in the habit of stipping out console output before comitting or deploying to production.

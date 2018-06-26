@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    function makeGreen() {
+      const p = document.querySelector('p');
+      p.style.color = '#BADA55';
+      p.style.fontSize = '50px';
+    }
+
+    // Regular
+    window.console.log('YO!');
+
+    // Interpolated
+    // const firstName = window.prompt('Name Pls?');
+    // window.console.log('YO! %s', firstName);
+
+    // Styled
+    window.console.log('%c THIS IS FUNKY', 'font-size:40px; background:url(https://source.unsplash.com/random/400x300/?landscape')
+    window.console.log('%c Keeping it Fresh 🔥 💯 ', 'color:#fff; text-shadow: 4px 4px 1px rgba(255,0,0,0.7), 8px 8px 1px rgba(0,255,0,0.7); 12px 12px 1px rgba(0,0,255,0.7); font-size:80px; padding:5rem; background:url(http://thecatapi.com/api/images/get?format=src&type=gif')
+
+    // warning!
+    window.console.warn('WOW!');
+
+    // Error :|
+    window.console.error('Nah For Real 💀');
+
+    // Info
+    window.console.info('Just FYI; knowledge is power');
+
+    // Testing
+    window.console.assert(document.querySelector('p').innerText === '×BREAK×DOWN×', 'OH NO!');
+    window.console.assert(document.querySelector('p').innerText === '🔥', 'OH NO!');
+
+    // clearing
+    // window.console.clear();
+
+    // Viewing DOM Elements
+    window.console.log(document.querySelector('p'));
+
+    // logging DOM node defaults to console.dirxml
+    window.console.dirxml(document.querySelector('p'));
+    window.console.dir(document.querySelector('p'));
+
+    // Grouping together
+
+    dogs.forEach(dog => {
+      window.console.group(dog.name);
+      window.console.log('name:', dog.name);
+      window.console.log('age:', dog.age);
+      window.console.log('dog years:', dog.age * 7);
+      window.console.groupEnd(dog.name);
+    });
+
+    dogs.forEach(dog => {
+      window.console.groupCollapsed(dog.name);
+      window.console.log('name:', dog.name);
+      window.console.log('age:', dog.age);
+      window.console.log('dog years:', dog.age * 7);
+      window.console.groupEnd(dog.name);
+    });
+
+    // counting
+    window.console.count('geoffrey');
+    window.console.count('potate');
+    window.console.count('potate');
+    window.console.count('geoffrey');
+    window.console.count('geoffrey');
+    window.console.count('potate');
+    window.console.count('geoffrey');
+
+    // timing
+    window.console.time('WOW');
+    fetch('https://tristanmarsh.github.io/JavaScript-30-challenge/README.MD')
+      .then(blob => blob.text())
+      .then(response => {
+        const contents = document.createElement('p');
+        contents.innerText = response;
+        document.body.appendChild(contents);
+
+        window.console.log(response);
+        window.console.timeEnd('WOW');
+      });
+
+  </script>
+</body>
+</html>
