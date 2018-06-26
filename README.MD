@@ -31,3 +31,8 @@ Pretty neat demo project. This answered some of my questions about the fetch API
 [Array Cardio 2](https://tristanmarsh.github.io/JavaScript-30-challenge/7-array-cardio-2/)
 
 Super quick demo to express helpful predicates with array methods `some`, and `every`. Also was not aware of the handy lambda based `findIndex` method.
+
+## Day 8 - HTML5 Canvas
+[HTML5 Canvas](https://tristanmarsh.github.io/JavaScript-30-challenge/8-html5-canvas/)
+
+Cool demo to learn a little about the canvas object. 👨‍🎨 I can't imagine myself investing the time required to get into the docs and become proficient anytime too soon as the pragmatic applications seem limited. Would certainly learn a library if future projects required such functionality.
