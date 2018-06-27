@@ -35,5 +35,9 @@ Super quick demo to express helpful predicates with array methods `some`, and `e
 Cool demo to learn a little about the canvas object. 👨‍🎨 I can't imagine myself investing the time required to get into the docs and become proficient anytime too soon as the pragmatic applications seem limited. Would certainly learn a library if future projects required such functionality.
 
 ## Day 9 - Dev Tool Domination
-[Dev Tool Domination](https://tristanmarsh.github.io/JavaScript-30-challenge/8-dev-tool-domination/)
+[Dev Tool Domination](https://tristanmarsh.github.io/JavaScript-30-challenge/9-dev-tool-domination/)
 Learnt of the `assert`, `dir`, `dirxml`, `group`, `count`, `clear` console methods and their variations. Not likely to start using much of them anytime too soon as I'm in the habit of stipping out console output before comitting or deploying to production.
+
+## Day 10 - Hold Shift Check Boxes
+[Hold Shift Check Boxes](https://tristanmarsh.github.io/JavaScript-30-challenge/10-hold-shift-check-boxes/)
+Watched the first 2 minutes of the video to get the idea and went and implemented. Not perfect but will finish video later tonight. Realised you can of course use querySelector on any DOM node, not just the document.
