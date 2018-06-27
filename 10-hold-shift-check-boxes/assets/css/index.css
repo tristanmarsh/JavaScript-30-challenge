@@ -1,6 +1,10 @@
 html {
   font-family: sans-serif;
   background:#ffc600;
+  background-image:url(https://source.unsplash.com/1600x800/?city);
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
 }
 
 .inbox {
