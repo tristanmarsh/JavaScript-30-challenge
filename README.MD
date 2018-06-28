@@ -41,3 +41,8 @@ Learnt of the `assert`, `dir`, `dirxml`, `group`, `count`, `clear` console metho
 ## Day 10 - Hold Shift Check Boxes
 [Hold Shift Check Boxes](https://tristanmarsh.github.io/JavaScript-30-challenge/10-hold-shift-check-boxes/)
 Watched the first 2 minutes of the video to get the idea and went and implemented. Not perfect but will finish video later tonight. Realised you can of course use querySelector on any DOM node, not just the document.
+
+## Day 11 - Custom Video Player
+[Custom Video Player](https://tristanmarsh.github.io/JavaScript-30-challenge/11-custom-video-player/)
+Similar event handling and internal state management to the [Day 8 - HTML5 Canvas](https://tristanmarsh.github.io/JavaScript-30-challenge/8-html5-canvas/) demo. Interesting learning the method and properties of a video object. 👍
+
