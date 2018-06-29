@@ -46,3 +46,7 @@ Watched the first 2 minutes of the video to get the idea and went and implemente
 [Custom Video Player](https://tristanmarsh.github.io/JavaScript-30-challenge/11-custom-video-player/)
 Similar event handling and internal state management to the [Day 8 - HTML5 Canvas](https://tristanmarsh.github.io/JavaScript-30-challenge/8-html5-canvas/) demo. Interesting learning the method and properties of a video object. 👍
 
+
+## Day 12 - Key Sequence Detection
+[Key Sequence Detection](https://tristanmarsh.github.io/JavaScript-30-challenge/12-key-sequence-detection/)
+So pretty

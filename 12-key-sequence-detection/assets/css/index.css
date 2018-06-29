@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+  background:#7A419B;
+  background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%);
+  background-image:url(https://source.unsplash.com/1600x800/?landscape);
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+}
+body {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  margin: 0;
+  height:100vh;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'sans-serif';
+  flex:1;
+  color: white;
+  text-shadow: 0 0 5px rgba(0,0,0,0.4);
+  font-size:4rem;
+  text-transform: capitalize;
+}
