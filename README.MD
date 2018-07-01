@@ -50,3 +50,7 @@ Similar event handling and internal state management to the [Day 8 - HTML5 Canva
 ## Day 12 - Key Sequence Detection
 [Key Sequence Detection](https://tristanmarsh.github.io/JavaScript-30-challenge/12-key-sequence-detection/)
 So pretty
+
+## Day 13 - Slide In On Scroll
+[Slide In On Scroll](https://tristanmarsh.github.io/JavaScript-30-challenge/13-slide-in-on-scroll/)
+Nothing new here for me. I'm familiar with implementing this with [ScrollMagic](https://github.com/janpaepke/ScrollMagic) and know how error prone this kind of effect can be. Definitely use a library.
