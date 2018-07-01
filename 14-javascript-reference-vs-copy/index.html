@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Reference VS Copy</title>
+  <style>
+    html {
+      box-sizing: border-box;
+      background:#7A419B;
+      background: linear-gradient(135deg, #7c1599 0%,#921099 48%,#7e4ae8 100%);
+      background-image:url(https://source.unsplash.com/1600x800/?nature);
+      background-size:cover;
+      background-position:center;
+      background-attachment: fixed;
+    }
+    h1,
+    h2 {
+      color:#fff;
+      text-shadow: 0 0 5px rgba(0,0,0,0.5);
+      text-align:center;
+      font-variant: small-caps;
+      text-transform: capitalize;
+    }
+    h2 {
+    opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <h1>JavaScript Reference vs Copy</h1>
+  <h2>Just a bunch of tests in the console</h2>
+
+  <script>
+    // start with strings, numbers and booleans
+    const yo = window.console.log;
+
+    let age = 100;
+    let age2 = age;
+
+    yo(age, age2)
+
+    age = 200;
+
+    yo(age, age2)
+
+    // Values are assigned to variables for primitive types
+
+    // Let's say we have an array
+    const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
+
+    // and we want to make a copy of it.
+    const team = players;
+
+    // You might think we can just do something like this:
+    team[0] = 'Tristan';
+
+    // however what happens when we update that array?
+    yo(players);
+    yo(team);
+
+    // now here is the problem!
+    yo(players === team);
+
+    // oh no - we have edited the original array too!
+
+    // Why? It's because that is an array reference, not an array copy. They both point to the same array!
+
+    // So, how do we fix this? We take a copy instead!
+    const team1 = players.slice();
+    yo(players === team1);
+
+    // one way
+    const team2 = Array.from(players);
+    yo(players === team2);
+
+    // or create a new array and concat the old one in
+    const team3 = [].concat(players);
+    yo(players === team3);
+
+    // or use the new ES6 Spread
+    const team4 = [...players];
+    yo(players === team4);
+
+    // Array from
+    const team5 = Array.from(players);
+    yo(players === team5);
+
+    // now when we update it, the original one isn't changed
+
+    // The same thing goes for objects, let's say we have a person object
+
+    // with Objects
+    const person = {
+      name: 'Wes Bos',
+      age: 80
+    };
+
+    // and think we make a copy:
+
+    const coolGuy = person;
+    coolGuy.age = 26;
+
+    // how do we take a copy instead?
+    const coolGuy1 = Object.assign(person, {number: 1, age:3000});
+    yo(coolGuy1 === person);
+
+    // We will hopefully soon see the object ...spread
+    const NOW_A_TOTALLY_CONFIRMED_METHOD = {...person};
+    yo(NOW_A_TOTALLY_CONFIRMED_METHOD);
+
+    // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+    const wowGuy = JSON.parse(JSON.stringify(person));
+  </script>
+
+</body>
+</html>
