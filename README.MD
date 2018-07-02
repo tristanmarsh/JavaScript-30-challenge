@@ -56,7 +56,7 @@ So pretty
 Nothing new here for me. I'm familiar with implementing this with [ScrollMagic](https://github.com/janpaepke/ScrollMagic) and know how error prone this kind of effect can be. Definitely use a library.
 
 ## Day 14 - JavaScript Reference vs Copy
-[JavaScript Reference vs Copy](https://tristanmarsh.github.io/JavaScript-30-challenge/14-referece-vs-copy/)
+[JavaScript Reference vs Copy](https://tristanmarsh.github.io/JavaScript-30-challenge/14-javascript-reference-vs-copy/)
 Learnt about the less recommended technique of cloning an array with the Array.slice() method. First time ever using the `Array.from()` (presumably iterable) method. Learnt that the object spread method I've being using in JSX is now standardised in JavaScript.
 
 ## Day 15 - Reminders List Local Storage
