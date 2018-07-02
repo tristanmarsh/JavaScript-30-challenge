@@ -58,3 +58,7 @@ Nothing new here for me. I'm familiar with implementing this with [ScrollMagic](
 ## Day 14 - JavaScript Reference vs Copy
 [JavaScript Reference vs Copy](https://tristanmarsh.github.io/JavaScript-30-challenge/14-referece-vs-copy/)
 Learnt about the less recommended technique of cloning an array with the Array.slice() method. First time ever using the `Array.from()` (presumably iterable) method. Learnt that the object spread method I've being using in JSX is now standardised in JavaScript.
+
+## Day 15 - Reminders List Local Storage
+[Reminders List Local Storage](https://tristanmarsh.github.io/JavaScript-30-challenge/15-reminders-list-local-storage/)
+GOOD TIMES! 🌮 Nothing new, got to use the <element>.dataset attribute, added a strikethrough and as always, an unsplash randomised landscape background. Entire form clearable too.
