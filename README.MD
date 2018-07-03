@@ -62,3 +62,7 @@ Learnt about the less recommended technique of cloning an array with the Array.s
 ## Day 15 - Reminders List Local Storage
 [Reminders List Local Storage](https://tristanmarsh.github.io/JavaScript-30-challenge/15-reminders-list-local-storage/)
 GOOD TIMES! 🌮 Nothing new, got to use the <element>.dataset attribute, added a strikethrough and as always, an unsplash randomised landscape background. Entire form clearable too.
+
+## Day 16 - Mouse Move Shadow
+[Mouse Move Shadow](https://tristanmarsh.github.io/JavaScript-30-challenge/16-mouse-move-shadow/)
+Good opportunity to learn about the quirks of tracking mouse location over the client vs relative to the triggered element. Added some transform 3D effects which were fun, but there's nothing pretty about the math involved.

@@ -1,0 +1,26 @@
+html {
+  background: url(https://source.unsplash.com/1600x800/?snow);
+  background-position:center;
+  background-attachment: fixed;
+  background-size:cover;
+  min-height:100vh;
+  font-family: fantasy
+}
+
+body {
+  margin: 0;
+  perspective: 1000px;
+}
+
+.hero {
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
+
+h1 {
+  transform: rotate3d(0, 1, 0, 45deg);
+  font-size: 100px;
+}
