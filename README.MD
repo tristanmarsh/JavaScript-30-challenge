@@ -68,5 +68,9 @@ GOOD TIMES! 🌮 Nothing new, got to use the <element>.dataset attribute, added 
 Good opportunity to learn about the quirks of tracking mouse location over the client vs relative to the triggered element. Added some transform 3D effects which were fun, but there's nothing pretty about the math involved.
 
 ## Day 17 - Sorting Band Names Without Articles
-[Sorting Band Names Without Articles](https://tristanmarsh.github.io/JavaScript-30-challenge/16-sort-without-articles/)
+[Sorting Band Names Without Articles](https://tristanmarsh.github.io/JavaScript-30-challenge/17-sort-without-articles/)
 Once again I opted for a non regex, slightly longer solution using map, reduce and sort. Fairly straight forward solution and nothing new in regards to this 30 day challenge, but still a good exercise of bringing a few concepts together.
+
+## Day 18 - Adding Up Times With Reduce
+[Adding Up Times With Reduce](https://tristanmarsh.github.io/JavaScript-30-challenge/18-adding-up-times-with-reduce/)
+Reduce is nice. Time is okay. This was acceptable.
