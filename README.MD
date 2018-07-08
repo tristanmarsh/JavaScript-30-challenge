@@ -74,3 +74,7 @@ Once again I opted for a non regex, slightly longer solution using map, reduce a
 ## Day 18 - Adding Up Times With Reduce
 [Adding Up Times With Reduce](https://tristanmarsh.github.io/JavaScript-30-challenge/18-adding-up-times-with-reduce/)
 Reduce is nice. Time is okay. This was acceptable.
+
+## Day 19 - Unreal Webcam Fun
+[Unreal Webcam Fun](https://tristanmarsh.github.io/JavaScript-30-challenge/19-unreal-webcam-fun/)
+That was intense. Must be highly inefficient way to process massive amounts of data - as in raw pixels. I suppose is why GPU's need to run in parallel. Super handy learning how to request access to the webcam, being able to generate photos in the browser and have a user download them.
