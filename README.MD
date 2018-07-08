@@ -78,3 +78,7 @@ Reduce is nice. Time is okay. This was acceptable.
 ## Day 19 - Unreal Webcam Fun
 [Unreal Webcam Fun](https://tristanmarsh.github.io/JavaScript-30-challenge/19-unreal-webcam-fun/)
 That was intense. Must be highly inefficient way to process massive amounts of data - as in raw pixels. I suppose is why GPU's need to run in parallel. Super handy learning how to request access to the webcam, being able to generate photos in the browser and have a user download them.
+
+## Day 20 - Speech Detection
+[Speech Detection](https://tristanmarsh.github.io/JavaScript-30-challenge/20-speech-detection/)
+VERY COOL! 👏 Could be fun for some experiments, or browser games, but speech recognition is always flaky, so I can't see this in any serious projects anytime soon. Also privacy concerns are a thing.
