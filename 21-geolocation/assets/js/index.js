@@ -12,7 +12,7 @@
     lat.textContent = data.coords.latitude;
     long.textContent = data.coords.longitude;
 
-    mapsLink.href = `https://www.google.com/maps/@-${data.coords.latitude},${data.coords.longitude},14z`;
+    mapsLink.href = `https://www.google.com/maps/@${data.coords.latitude},${data.coords.longitude},14z`;
     mapsLink.textContent = 'Maps Please';
 
     arrow.style.transform = `rotate(${data.coords.heading}deg)`;
