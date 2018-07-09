@@ -86,3 +86,7 @@ VERY COOL! 👏 Could be fun for some experiments, or browser games, but speech 
 ## Day 21 - Geolocation
 [Geolocation](https://tristanmarsh.github.io/JavaScript-30-challenge/21-geolocation/)
 Nice, handy to know it's so simple to request location data and have updates triggered on the device. Added a lat/long and Google maps link for testing.
+
+## Day 22 - Follow Along Link Highlighter
+[Follow Along Link Highlighter](https://tristanmarsh.github.io/JavaScript-30-challenge/22-follow-along-link-highlighter/)
+Neat little demo of how to create a morphing menu or object, shows how simple it can be at it's most basic implementation. Learnt about the `getBoundingClientRect` function.
