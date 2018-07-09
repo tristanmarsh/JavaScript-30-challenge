@@ -38,3 +38,10 @@ h1 {
 .units {
   font-size: 15px;
 }
+
+a,
+span {
+  font-size:0.2rem;
+  color:#fff;
+  text-shadow:0 0 3px rgba(0,0,0,0.3);
+}

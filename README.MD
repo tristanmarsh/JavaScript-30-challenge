@@ -82,3 +82,7 @@ That was intense. Must be highly inefficient way to process massive amounts of d
 ## Day 20 - Speech Detection
 [Speech Detection](https://tristanmarsh.github.io/JavaScript-30-challenge/20-speech-detection/)
 VERY COOL! 👏 Could be fun for some experiments, or browser games, but speech recognition is always flaky, so I can't see this in any serious projects anytime soon. Also privacy concerns are a thing.
+
+## Day 21 - Geolocation
+[Geolocation](https://tristanmarsh.github.io/JavaScript-30-challenge/21-geolocation/)
+Nice, handy to know it's so simple to request location data and have updates triggered on the device. Added a lat/long and Google maps link for testing.
