@@ -90,3 +90,7 @@ Nice, handy to know it's so simple to request location data and have updates tri
 ## Day 22 - Follow Along Link Highlighter
 [Follow Along Link Highlighter](https://tristanmarsh.github.io/JavaScript-30-challenge/22-follow-along-link-highlighter/)
 Neat little demo of how to create a morphing menu or object, shows how simple it can be at it's most basic implementation. Learnt about the `getBoundingClientRect` function.
+
+## Day 23 - Speech Synthesis
+[Speech Synthesis](https://tristanmarsh.github.io/JavaScript-30-challenge/23-speech-synthesis/)
+Handy to know, the only way I've seen this used is for April Fools pranks, but of course the application for accessibility is a potential. Still not sure about the benefits or overall user experience in adding speech to a website or app...
