@@ -98,3 +98,7 @@ Handy to know, the only way I've seen this used is for April Fools pranks, but o
 ## Day 24 - Sticky Nav
 [Sticky Nav](https://tristanmarsh.github.io/JavaScript-30-challenge/24-sticky-nav/)
 Common effect, so often broken - especially on mobile devices with dynamic window heights. Vanilla implementation is much nicer than something like ScrollMagic for basic use cases that don't require serious animation tweening.
+
+## Day 25 - Event Capture Propagation, Bubbling and Once
+[Event Capture Propagation, Bubbling and Once](https://tristanmarsh.github.io/JavaScript-30-challenge/24-sticky-nav/)
+Nice to learn of the config object with `capture` and `once` props underneath the jQuery equivalents. <MouseEvent>.`stopPropagation()` is handy to know too, I suppose... Although I would feel pretty hacky having to use it.
