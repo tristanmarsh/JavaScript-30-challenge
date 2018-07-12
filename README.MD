@@ -94,3 +94,7 @@ Neat little demo of how to create a morphing menu or object, shows how simple it
 ## Day 23 - Speech Synthesis
 [Speech Synthesis](https://tristanmarsh.github.io/JavaScript-30-challenge/23-speech-synthesis/)
 Handy to know, the only way I've seen this used is for April Fools pranks, but of course the application for accessibility is a potential. Still not sure about the benefits or overall user experience in adding speech to a website or app...
+
+## Day 24 - Sticky Nav
+[Sticky Nav](https://tristanmarsh.github.io/JavaScript-30-challenge/24-sticky-nav/)
+Common effect, so often broken - especially on mobile devices with dynamic window heights. Vanilla implementation is much nicer than something like ScrollMagic for basic use cases that don't require serious animation tweening.
