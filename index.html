@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript 30 Day Challenge - Tristan Marsh</title>
+    <style>
+      html {
+        background: #fff url(https://source.unsplash.com/1600x900/?forest) no-repeat center center fixed;
+        background-size: cover;
+        font-family: 'helvetica neue', sans-serif;
+        color:#fff;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.5)
+      }
+      body {
+        margin: 0 auto;
+        max-width: 80%;
+      }
+      ul {
+        padding-left: 0;
+      }
+      li {
+        list-style: none;
+        margin-bottom: 5rem;
+      }
+
+      li img {
+        width: 25rem;
+        height: 18.75rem;
+        /* overflow: hidden; */
+        max-width: 100%;
+        transition: 400ms ease-out;
+        filter:grayscale(0.5)
+      }
+
+      li img:hover {
+        filter:grayscale(0);
+        transform: scale(1.02);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript 30 Day Challenge - Tristan Marsh</h1>
+    <ul>
+      <li>
+        <h2>Day 1 - Drum Machine</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/1-drum-machine/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F1-drum-machine%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="1-drum-machine"
+        />
+        </a>
+        <p>
+My solution is not as succinct, but keeps the separation of concerns clearer and lets the function names reflect the functionality.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 2 - CSS + JS Clock</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/2-clock/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F2-clock%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="2-clock"
+        />
+        </a>
+        <p>
+This was fun! Challenging to represent the final degrees subsisting of the component time units in a readible way.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 3 - CSS VARIABLES</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/3-css-variables/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F3-css-variables%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="3-css-variables"
+        />
+        </a>
+        <p>
+Continuing to learn programmatic JS controlled style, which despite IMO being more prone than css to becoming unmanageable, is undeniably handy. Fan of the `<HTMLElement>.dataset` proprty mechanism! 👏
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 4 - Array Cardio 1</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/4-array-cardio-1/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F4-array-cardio-1%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="4-array-cardio-1"
+        />
+        </a>
+        <p>
+Fun times concreting recent attempts to take initial steps towards writing "functionally", `reduce` is still quite foregin and really seems to require the spread operator to be even remotely useful and not become as verbose as a for loop. Realised I have a lot to learn about XRH and CORS when attempting to `fetch` data from wikipedia.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 5 - Flex Panel Gallery</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/5-flex-panel-gallery/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F5-flex-panel-gallery%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="5-flex-panel-gallery"
+        />
+        </a>
+        <p>
+This is my jam! The JS was very basic class togglers (with the newly learnt `transitionend` event). But it's high impact thanks to Flexbox, thoughtful and queued transitions, and my new favourite API...  source.unsplash.com. This isn't very useful but it's beautiful.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 6 - AJAX Type Ahead</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/6-type-ahead/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F6-type-ahead%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="6-type-ahead"
+        />
+        </a>
+        <p>
+Pretty neat demo project. This answered some of my questions about the fetch API that I attempted to add to (Day 4 - Array Cardio 1)[https://tristanmarsh.github.io/JavaScript-30-challenge/4-array-cardio-1/; need to interpret the blob objects stream according to it's file type. I attempted to structure the functionality with a clearer seperation of concerns and to optimise for readability/maintenance/extensibility. I wrote functions instead of using copy pasted regex, and added localStorage caching of the cities data API.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 7 - Array Cardio 2</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/7-array-cardio-2/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F7-array-cardio-2%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="7-array-cardio-2"
+        />
+        </a>
+        <p>
+Super quick demo to express helpful predicates with array methods `some`, and `every`. Also was not aware of the handy lambda based `findIndex` method.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 8 - HTML5 Canvas</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/8-html5-canvas/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F8-html5-canvas%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="8-html5-canvas"
+        />
+        </a>
+        <p>
+Cool demo to learn a little about the canvas object. 👨‍🎨 I can't imagine myself investing the time required to get into the docs and become proficient anytime too soon as the pragmatic applications seem limited. Would certainly learn a library if future projects required such functionality.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 9 - Dev Tool Domination</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/9-dev-tool-domination/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F9-dev-tool-domination%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+Learnt of the `assert`, `dir`, `dirxml`, `group`, `count`, `clear` console methods and their variations. Not likely to start using much of them anytime too soon as I'm in the habit of stipping out console output before comitting or deploying to production.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 10 - Hold Shift Check Boxes</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/10-hold-shift-check-boxes/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F10-hold-shift-check-boxes%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+Watched the first 2 minutes of the video to get the idea and went and implemented. Not perfect but will finish video later tonight. Realised you can of course use querySelector on any DOM node, not just the document.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 11 - Custom Video Player</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/11-custom-video-player/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F11-custom-video-player%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+Similar event handling and internal state management to the [Day 8 - HTML5 Canvas](https://tristanmarsh.github.io/JavaScript-30-challenge/8-html5-canvas/) demo. Interesting learning the method and properties of a video object. 👍
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 12 - Key Sequence Detection</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/12-key-sequence-detection/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F12-key-sequence-detection%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+So pretty
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 13 - Slide In On Scroll</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/13-slide-in-on-scroll/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F13-slide-in-on-scroll%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="13-slide-in-on-scrol"
+        />
+        </a>
+        <p>
+Nothing new here for me. I'm familiar with implementing this with [ScrollMagic](https://github.com/janpaepke/ScrollMagic) and know how error prone this kind of effect can be. Definitely use a library.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 14 - JavaScript Reference vs Copy</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/14-javascript-reference-vs-copy/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F14-javascript-reference-vs-copy%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+Learnt about the less recommended technique of cloning an array with the Array.slice() method. First time ever using the `Array.from()` (presumably iterable) method. Learnt that the object spread method I've being using in JSX is now standardised in JavaScript.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 15 - Reminders List Local Storage</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/15-reminders-list-local-storage/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F15-reminders-list-local-storage%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+GOOD TIMES! 🌮 Nothing new, got to use the <element>.dataset attribute, added a strikethrough and as always, an unsplash randomised landscape background. Entire form clearable too.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 16 - Mouse Move Shadow</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/16-mouse-move-shadow/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F16-mouse-move-shadow%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="16-mouse-move-shadow"
+        />
+        </a>
+        <p>
+Good opportunity to learn about the quirks of tracking mouse location over the client vs relative to the triggered element. Added some transform 3D effects which were fun, but there's nothing pretty about the math involved.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 17 - Sorting Band Names Without Articles</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/17-sort-without-articles/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F17-sort-without-articles%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+Once again I opted for a non regex, slightly longer solution using map, reduce and sort. Fairly straight forward solution and nothing new in regards to this 30 day challenge, but still a good exercise of bringing a few concepts together.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 18 - Adding Up Times With Reduce</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/18-adding-up-times-with-reduce/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F18-adding-up-times-with-reduce%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+Reduce is nice. Time is okay. This was acceptable.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 19 - Unreal Webcam Fun</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/19-unreal-webcam-fun/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F19-unreal-webcam-fun%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="19-unreal-webcam-fun"
+        />
+        </a>
+        <p>
+That was intense. Must be highly inefficient way to process massive amounts of data - as in raw pixels. I suppose is why GPU's need to run in parallel. Super handy learning how to request access to the webcam, being able to generate photos in the browser and have a user download them.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 20 - Speech Detection</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/20-speech-detection/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F20-speech-detection%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="20-speech-detection"
+        />
+        </a>
+        <p>
+VERY COOL! 👏 Could be fun for some experiments, or browser games, but speech recognition is always flaky, so I can't see this in any serious projects anytime soon. Also privacy concerns are a thing.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 21 - Geolocation</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/21-geolocation/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F21-geolocation%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="21-geolocation"
+        />
+        </a>
+        <p>
+Nice, handy to know it's so simple to request location data and have updates triggered on the device. Added a lat/long and Google maps link for testing.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 22 - Follow Along Link Highlighter</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/22-follow-along-link-highlighter/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F22-follow-along-link-highlighter%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+Neat little demo of how to create a morphing menu or object, shows how simple it can be at it's most basic implementation. Learnt about the `getBoundingClientRect` function.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 23 - Speech Synthesis</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/23-speech-synthesis/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F23-speech-synthesis%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="23-speech-synthesis"
+        />
+        </a>
+        <p>
+Handy to know, the only way I've seen this used is for April Fools pranks, but of course the application for accessibility is a potential. Still not sure about the benefits or overall user experience in adding speech to a website or app...
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 24 - Sticky Nav</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/24-sticky-nav/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F24-sticky-nav%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="24-sticky-nav"
+        />
+        </a>
+        <p>
+Common effect, so often broken - especially on mobile devices with dynamic window heights. Vanilla implementation is much nicer than something like ScrollMagic for basic use cases that don't require serious animation tweening.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 25 - Event Capture Propagation, Bubbling and Once</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/25-event-capture-propagation-bubbling-and-once/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F25-event-capture-propagation-bubbling-and-once%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt=""
+        />
+        </a>
+        <p>
+Nice to learn of the config object with `capture` and `once` props underneath the jQuery equivalents. <MouseEvent>.`stopPropagation()` is handy to know too, I suppose - although I would feel pretty hacky actually having to use it.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 26 - Stripe Follow Along Nav</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/26-stripe-follow-along-nav/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F26-stripe-follow-along-nav%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+Nice effect and revisiting of the `transitionend` event to queue up class and transitions toggles. Would want to make it much more robust and prevent content from overflowing the container. But this was specifically designed to work with uncontrolled html perhaps being generated by a CMS.
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 27 - Click and Drag</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/27-click-and-drag/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F27-click-and-drag%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="27-click-and-drag"
+        />
+        </a>
+        <p>
+woo
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 28 - Video Speed Controller</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/28-video-speed-controller/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F28-video-speed-controller%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="e"
+        />
+        </a>
+        <p>
+woo
+
+        </p>
+      </li>
+      <li>
+        <h2>Day 29 - Countdown Timer</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/29-countdown-timer/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F29-countdown-timer%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="29-countdown-timer"
+        />
+        </a>
+        <p>
+Good point about the unreliability of the `setInterval` or `setTimeout` methods, storing timestamps and doing comparisons when allowed to is a nice solution. Also the document.`{form name value}`.`{input name value}` is a nice shortcut to using querySelectors.
+
+        </p>
+      </li>
+
+      <li>
+        <h2>Day 30 - Whack A Mole</h2>
+        <a href="https://tristanmarsh.github.io/JavaScript-30-challenge/30-whack-a-mole/">
+        <img
+          src="https://screenshoter.com/?uri=https%3A%2F%2Ftristanmarsh.github.io%2FJavaScript-30-challenge%2F30-whack-a-mole%2F&viewport=tablet&type=cropped&size=medium&format=jpg"
+          alt="30-whack-a-mole"
+        />
+        </a>
+        <p>
+woo
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
