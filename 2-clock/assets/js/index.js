@@ -65,9 +65,10 @@
 
     const tickAndSchedule = () => {
         updateTime();
+        
         const nowMs = new Date().getTime() % 1_000;
         const deltaToNextTick = 1_000 - nowMs;
-        window.setInterval(tickAndSchedule, deltaToNextTick);
+        setTimeout(tickAndSchedule, deltaToNextTick);
     }
 
     tickAndSchedule();
