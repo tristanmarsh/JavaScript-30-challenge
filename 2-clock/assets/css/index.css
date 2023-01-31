@@ -45,7 +45,3 @@ body {
     top: 50%;
     transition:all 0.1s cubic-bezier(0.68, 0, 0.265, 1.55);
 }
-
-.hour-hand {
-    width: 40%;
-}
